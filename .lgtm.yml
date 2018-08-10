@@ -21,3 +21,8 @@ extraction:
         - texlive-latex-recommended
           # TODO: liblld needed for alld
         # - liblld-4.0-dev
+    configure:
+      command:
+        - mkdir -p _lgtm_build_dir
+        - cd _lgtm_build_dir
+        - cmake -DBUILD_DOCS=OFF -DCMAKE_BUILD_TYPE=Release ..
