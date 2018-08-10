@@ -1,0 +1,13 @@
+if ( LLD_AVAILABLE_AS_LIB )
+  add_subdirectory(alld)
+endif()
+
+add_subdirectory(all-info)
+add_subdirectory(alley)
+add_subdirectory(allmux)
+add_subdirectory(allopt)
+add_subdirectory(allready)
+add_subdirectory(alltogether)
+add_subdirectory(bc2allvm)
+add_subdirectory(wllvm-dump)
+add_subdirectory(wllvm-extract)

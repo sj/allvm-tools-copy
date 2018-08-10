@@ -1,0 +1,14 @@
+#ifndef ALLVM_VERSION_H
+#define ALLVM_VERSION_H
+
+#include <llvm/ADT/StringRef.h>
+
+#include <string>
+
+namespace allvm {
+
+inline llvm::StringRef getALLVMVersion() { return "@GITVERSION@"; }
+
+} // end namespace allvm
+
+#endif // ALLVM_VERSION_H
