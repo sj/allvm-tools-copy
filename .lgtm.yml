@@ -28,6 +28,7 @@ extraction:
       
     configure:
       command:
+        - cat /usr/lib/llvm-4.0/include/lld/Config/Version.h > /dev/null # triggers installation of liblld-4.0-dev for alld
         - mkdir -p _lgtm_build_dir
         - cd _lgtm_build_dir
         - cmake -DBUILD_DOCS=OFF -DCMAKE_BUILD_TYPE=Release ..
