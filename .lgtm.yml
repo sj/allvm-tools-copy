@@ -14,13 +14,12 @@ extraction:
   cpp:
     prepare:
       packages:
+        # Can't install liblld-4.0-dev here; it's not on the whitelist. Trick LGTM into installing it later during configure.
         - llvm-4.0-dev
         - llvm-4.0-tools
         - llvm-4.0
         - llvm-4.0-runtime
         - texlive-latex-recommended
-          # TODO: liblld needed for alld
-        # - liblld-4.0-dev
     after_prepare:
       - sed -i '/llvm-3/d' /opt/work/autobuild/deptrace-db.txt
       - sed -i '/llvm-5/d' /opt/work/autobuild/deptrace-db.txt
