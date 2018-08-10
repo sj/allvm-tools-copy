@@ -16,6 +16,8 @@ extraction:
       packages:
         - llvm-4.0-dev
         - llvm-4.0-tools
+        - llvm-4.0
+        - llvm-4.0-runtime
         - texlive-latex-recommended
           # TODO: liblld needed for alld
         # - liblld-4.0-dev
