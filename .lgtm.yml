@@ -21,6 +21,11 @@ extraction:
         - texlive-latex-recommended
           # TODO: liblld needed for alld
         # - liblld-4.0-dev
+    after_prepare:
+      - sed -i '/llvm-3/d' /opt/work/autobuild/deptrace-db.txt
+      - sed -i '/llvm-5/d' /opt/work/autobuild/deptrace-db.txt
+      - sed -i '/llvm-6/d' /opt/work/autobuild/deptrace-db.txt
+      
     configure:
       command:
         - mkdir -p _lgtm_build_dir
