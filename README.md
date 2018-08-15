@@ -1,6 +1,8 @@
 # ALLVM
 
 [![Build Status](https://img.shields.io/travis/allvm/allvm-tools.svg?branch=master)](https://travis-ci.org/allvm/allvm-tools)
+[![Code Quality: Java](https://img.shields.io/lgtm/grade/java/g/sjvs/allvm-tools-copy.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/sjvs/allvm-tools-copy/context:java)
+[![Total Alerts](https://img.shields.io/lgtm/alerts/g/sjvs/allvm-tools-copy.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/sjvs/allvm-tools-copy/alerts)
 
 ![ALLVM ALL THE THINGS!](https://img.shields.io/badge/ALLVM-ALL%20THE%20THINGS-brightgreen.svg)
 
